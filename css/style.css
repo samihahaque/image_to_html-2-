@@ -1,0 +1,495 @@
+*{margin:0;padding:0;}
+.header{
+    height:90px;
+    background-color: #111A2B;
+    
+}
+.headwrap1{
+    width:80%;
+    margin:0 auto;
+    
+    
+}
+.headwrap2{
+   min-height:40px;
+   width:30%;
+    
+    float:right;
+}
+.client{
+    height:35px;
+    width:40%;
+    background-color:#FDFDFD;
+    float:left;
+}
+.employee{
+    min-height: 35px;
+    width:60%;
+    background-color:#0074C0;
+    float:right;
+}
+.headwrap3{
+    width:70%;
+    min-height:20px;
+    float:right;
+    margin-right:120px;
+    
+}
+.menubar{
+    float:right;
+    background-color:#111A2B;
+}
+.menubar ul{
+    list-style: none;
+}
+.menubar ul li{float:left;}
+.menubar ul li a{
+    text-decoration: none;
+    padding:0 20px;
+    padding-top:19px;
+    padding-bottom: 10px;
+    display: block;
+    color:white;
+    font-family:Nanum Gothic,font-family;
+    font-size:15px;
+    transition: 0.8s;
+}
+
+.menubar ul li a:hover{
+    color:#0078C6;
+}
+.client p{
+    text-align: center;
+    padding:10px 0;
+    color:#919699;
+}
+.employee p{
+    text-align: center;
+    padding:10px 0;
+    color:white;
+}
+.logo{
+    width:14.5%;
+    height:65px;
+    
+    float:left;
+    margin:9px 0;
+    overflow: hidden;
+    
+}
+.logo .logowrap1{
+    width:39%;
+    min-height:70px;
+    
+    float:left;
+}
+.logo .logowrap1 .circle{
+    width:65px;
+    height:65px;
+    border-radius:35px;
+    background-color:#FFFFFF;
+}
+.logo .circle h1
+{
+    margin-left:27px;
+    font-size:65px;
+    display:block;
+    color:#10162A;
+    font-family:Nanum Gothic,font-family;
+}
+.logo .logowrap2{
+    width:61%;
+    height:65px;
+    float:right;
+}
+.logo .logowrap2 .t1
+{
+    width:100%;
+    height:30px; 
+}
+.logo .logowrap2 .t1 h4{
+    font-size:30px;
+    color:#0078C6;
+    font-family: Nanum Gothic,font-family;
+}
+.logo .logowrap2 .t2
+{
+    width:55%;
+    min-height:35px;
+    
+}
+.logo .logowrap2 .t2 h3{
+    font-size:31px;
+    color:#FFFFFF;
+    font-family: Nanum Gothic,font-family;
+}
+
+ .image{
+    width:100%;
+    height:500px; 
+     position: relative;
+}
+.image img{
+    width:100%;
+    height:500px;
+}
+ .image .slidewrap{ 
+    width:80%;
+    min-height:40%;
+    
+    position: absolute;
+     margin-top:-20%;
+     margin-left: 10%;
+     
+}
+ .image .slidewrap h4{
+    color:white;
+    font-size: 23px;
+    padding:3px 0;
+     font-family: Nanum Gothic,font-family;
+}
+ .image .slidewrap h2{
+   color:#0078C6;
+     font-size:28px;
+     font-family: Nanum Gothic,font-family;
+}
+ .image .slidewrap .text p{
+    color:white;
+}
+.image .slidewrap .text{
+    width:30%;
+    font-size: 13px;
+    padding:3px 0;
+    
+    
+}
+.image .slidewrap button{
+    width:10%;
+    height:30px;
+    margin-top:20px;
+    border-radius: 4px;
+}
+.image .slidewrap button p{
+    color:#919699;
+}
+.content{
+    min-height:210px;
+    background-color: #111A2D;
+    overflow:hidden;
+}
+.content .contentwrap{
+    width:80%;
+    margin:0 auto;
+}
+.content .contentwrap .part1{
+    width:25%;
+    height: 130px;
+    padding-top:60px;
+    padding-bottom:26px;
+    float:left;
+     
+}
+.content .contentwrap .part1 .symbol1{
+    width:20%;
+    height:55px;
+    
+    float:left;
+}
+.content .contentwrap .part1 .symbol1 img{
+    width:100%;
+}
+.content .contentwrap .part1  .symbolname1{
+    float:right;
+    
+    width:73%;
+    height:35px;
+    padding:10px;
+}
+.content .contentwrap .part1  .symbolname1 h5{
+    font-size:15px;
+    color:#FFFFFF;
+    font-family: Nanum Gothic,font-family;
+}
+.content .contentwrap .part1  .description1{
+    height:100px;
+    
+    float:right;
+    margin:14px 0;
+}
+.content .contentwrap .part1  .description1 p{
+    font-size: 12px;
+    color:#FFFFFF;
+    font-family: Nanum Gothic,font-family;
+    
+}
+.content .contentwrap .part2{
+    width:35%;
+    height: 130px;
+    
+    padding-top:60px;
+    padding-bottom:26px;
+    border-left: 3px solid #151F2E;
+    border-right: 3px solid #151F2E;
+    margin:0 auto;
+    float:left;
+    margin-left:6%;
+}
+.content .contentwrap .part2 .part2wrap{
+    width:65%;
+    margin:0 auto;
+    
+}
+.content .contentwrap .part2 .symbol2{
+    width:15%;
+    height:55px;
+    
+    float:left;
+}
+.content .contentwrap .part2.symbol2 img{
+    width:100%;
+}
+.content .contentwrap .part2  .symbolname2{
+    float:right;
+    
+    width:83%;
+    height:35px;
+    padding:10px 2px;
+}
+.content .contentwrap .part2  .symbolname2 h5{
+    font-size:15px;
+    color:#FFFFFF;
+    font-family: Nanum Gothic,font-family;
+}
+.content .contentwrap .part2  .description2{
+    height:100px;
+    
+    float:right;
+    margin:14px 0;
+}
+.content .contentwrap .part2  .description2 p{
+    font-size: 12px;
+    color:#FFFFFF;
+    font-family: Nanum Gothic,font-family;
+    
+}
+.content .contentwrap .part3{
+    width:25%;
+    height: 130px;
+    
+    padding-top:60px;
+    padding-bottom:26px;
+    float:right;
+    
+    
+}
+
+.content .contentwrap .part3 .symbol3{
+    width:15%;
+    height:55px;
+    
+    float:left;
+}
+.content .contentwrap .part3.symbol3 img{
+    width:100%;
+}
+.content .contentwrap .part3 .symbolname3{
+    float:right;
+    
+    width:83%;
+    height:20px;
+    padding:0 2px;
+    padding-top: 30px;
+}
+.content .contentwrap .part3  .symbolname3 h5{
+    font-size:15px;
+    color:#0078C6;font-family: Nanum Gothic,font-family;
+}
+.content .contentwrap .part3  .symbolname3 .wireless{
+    float:left;
+    
+}
+.content .contentwrap .part3  .symbolname3 .systems{
+    
+    margin-left: 26%;
+}
+.content .contentwrap .part3  .description3{
+    height:100px;
+    
+    float:right;
+    margin:5px 0;
+}
+.content .contentwrap .part3 .description3 p{
+    font-size: 12px;
+    color:#FFFFFF;
+    font-family: Nanum Gothic,font-family;
+}
+.advertisement{
+    height:200px;
+    background-color: #050711;
+    
+}
+.advertisement .advertisementwrap{
+    width:77%;
+    margin:0 auto;
+    
+}
+.advertisement .advertisementwrap .ad1{
+    min-height:140px;
+    width:30%;
+    
+    padding-top:30px;
+    float:left;
+}
+.advertisement .advertisementwrap .ad1 .ad1wrap{
+    width:80%;
+    margin:0 auto;
+}
+.advertisement .advertisementwrap .ad1 .adname1 .oceans{
+    float:left;
+    font-size:20px;
+    font-family: Nanum Gothic,font-family;
+}
+.advertisement .advertisementwrap .ad1 .adname1 .edge{
+    margin-left:23%;
+    font-size: 20px;
+    font-family: Nanum Gothic,font-family;
+} 
+.advertisement .advertisementwrap .ad1 .adname1 .edge h5{
+    color:#0078C6;
+}
+.advertisement .advertisementwrap .ad1 .ad_detail1{
+    margin-top: 5%;
+    
+}
+.advertisement .advertisementwrap .ad1 .ad_detail1 p{
+    color:#FFFFFF;
+    font-size: 10.5px;
+    font-family: Nanum Gothic,font-family;
+}
+.advertisement .advertisementwrap .ad2{
+    min-height:140px;
+    width:30%;
+    
+    padding-top:30px;
+    float:left;
+    margin-left:5%;
+}
+.advertisement .advertisementwrap .ad2 .ad2wrap{
+    width:80%;
+    margin:0 auto;
+}
+.advertisement .advertisementwrap .ad2 .adname2{
+    
+}
+.advertisement .advertisementwrap .ad2 .adname2 .customers{
+    float:left;
+    font-size: 20px;font-family: Nanum Gothic,font-family;
+}
+.advertisement .advertisementwrap .ad2 .adname2 .testimonials{
+    margin-left:34%;
+    font-family: Nanum Gothic,font-family;
+} 
+.advertisement .advertisementwrap .ad2 .adname2 .testimonials h5{
+    color:#0078C6;
+    font-size: 17px;
+}
+.advertisement .advertisementwrap .ad2 .ad_detail2{
+    margin-top: 5%;
+    
+}
+.advertisement .advertisementwrap .ad2 .ad_detail2 p{
+    color:#FFFFFF;
+    font-size: 10.5px;
+    font-family: Nanum Gothic,font-family;
+}
+.advertisement .advertisementwrap .ad3{
+    min-height:140px;
+    width:30%;
+    
+    padding-top:30px;
+    float:right;
+}
+.advertisement .advertisementwrap .ad3 .ad3wrap{
+    width:80%;
+    margin:0 auto;
+}
+.advertisement .advertisementwrap .ad3 .phone_img{
+    width:30%; 
+    float:left;
+    margin-left: 20%;
+}
+.advertisement .advertisementwrap .ad3 .detail3{
+    margin-left:55%;
+}
+.advertisement .advertisementwrap .ad3 .detail3 h5{
+    color:#FFFFFF;
+    font-size:16px;
+    font-weight:100;
+    font-family: Nanum Gothic,font-family;
+}
+.advertisement .advertisementwrap .ad3 .detail3 h4{
+    color:#0078C6;
+    font-size: 19px;
+    font-family: Nanum Gothic,font-family;
+}
+.advertisement .advertisementwrap .ad3 .detail3 button{
+    border-radius: 6px;
+    height:35px;
+    width:100%;
+    font-family: Nanum Gothic,font-family;
+    margin-top: 6px;
+}
+.footer{
+    background-color: #111A2D;
+    height:85px;
+}
+.footer .footwrap{
+    width:70%;
+    margin:0 auto;
+    
+}
+.footer .footwrap .footmenubar{
+   width:60%;
+    height:23px;
+    
+    padding-top: 20px;
+    float:left;
+}
+.footer .footwrap .footmenubar ul{
+    list-style: none;
+}
+.footer .footwrap .footmenubar ul li{
+    float:left;
+}
+.footer .footwrap .footmenubar ul li a{
+    text-decoration: none;
+    display:block;
+    padding:0 18px;
+    font-size:12px;
+    color:#FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    font-family: Nanum Gothic,font-family;
+}
+.footer .footwrap .footmenubar ul li:last-child a{
+    border-right: none;
+}
+.footer .footwrap .footimage{
+    float:right;
+    padding-top: 3px;
+    width:35%;
+    height:85px;
+    margin-right: 13px;
+}
+.footer .footwrap .footimage img{
+    width:100%;
+    height:70px;
+}
+.footer .footwrap .footercontent{
+    float:left;
+    padding-left: 16px;
+}
+.footer .footwrap .footercontent h5{
+    color:#FFFFFF;
+    font-size:12px; 
+    font-family: Nanum Gothic,font-family;
+}
