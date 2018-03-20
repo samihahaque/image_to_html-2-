@@ -1,6 +1,6 @@
 *{margin:0;padding:0;}
 .header{
-    height:90px;
+    height:100px;
     background-color: #111A2B;
     
 }
@@ -16,17 +16,28 @@
     
     float:right;
 }
+.client:hover{
+    background-color: #0074C0;
+    color:#FDFDFD;
+}
+.employee:hover{
+    background-color: #0074C0;
+    color:#FDFDFD;
+    
+}
 .client{
-    height:35px;
+    height:39px;
     width:40%;
     background-color:#FDFDFD;
     float:left;
+    transition:0.7s;
 }
 .employee{
     min-height: 35px;
     width:60%;
-    background-color:#0074C0;
+    background-color:#FDFDFD;
     float:right;
+    transition:0.7s;
 }
 .headwrap3{
     width:70%;
@@ -61,12 +72,12 @@
 .client p{
     text-align: center;
     padding:10px 0;
-    color:#919699;
+    
 }
 .employee p{
     text-align: center;
     padding:10px 0;
-    color:white;
+    
 }
 .logo{
     width:14.5%;
@@ -135,22 +146,22 @@
 }
  .image .slidewrap{ 
     width:80%;
-    min-height:40%;
+    min-height:50%;
     
     position: absolute;
-     margin-top:-20%;
+     margin-top:-22%;
      margin-left: 10%;
      
 }
  .image .slidewrap h4{
     color:white;
-    font-size: 23px;
-    padding:3px 0;
+    font-size: 28px;
+    padding:10px 0;
      font-family: Nanum Gothic,font-family;
 }
  .image .slidewrap h2{
    color:#0078C6;
-     font-size:28px;
+     font-size:32px;
      font-family: Nanum Gothic,font-family;
 }
  .image .slidewrap .text p{
@@ -158,22 +169,27 @@
 }
 .image .slidewrap .text{
     width:30%;
-    font-size: 13px;
-    padding:3px 0;
-    
+    font-size: 16px;
+    padding:10px 0;
+    line-height: 1.5;
     
 }
 .image .slidewrap button{
     width:10%;
-    height:30px;
+    height:33px;
     margin-top:20px;
     border-radius: 4px;
-}
-.image .slidewrap button p{
+    transition: 0.7s;
     color:#919699;
 }
+.image .slidewrap button:hover{
+    background-color:#0074C0;
+    color:white;
+    transform: scale(1.05);
+}
+
 .content{
-    min-height:210px;
+    min-height:280px;
     background-color: #111A2D;
     overflow:hidden;
 }
@@ -206,7 +222,7 @@
     padding:10px;
 }
 .content .contentwrap .part1  .symbolname1 h5{
-    font-size:15px;
+    font-size:19px;
     color:#FFFFFF;
     font-family: Nanum Gothic,font-family;
 }
@@ -217,8 +233,9 @@
     margin:14px 0;
 }
 .content .contentwrap .part1  .description1 p{
-    font-size: 12px;
+    font-size: 15px;
     color:#FFFFFF;
+    line-height: 1.2;
     font-family: Nanum Gothic,font-family;
     
 }
@@ -256,7 +273,7 @@
     padding:10px 2px;
 }
 .content .contentwrap .part2  .symbolname2 h5{
-    font-size:15px;
+    font-size:19px;
     color:#FFFFFF;
     font-family: Nanum Gothic,font-family;
 }
@@ -267,8 +284,9 @@
     margin:14px 0;
 }
 .content .contentwrap .part2  .description2 p{
-    font-size: 12px;
+    font-size: 15px;
     color:#FFFFFF;
+    line-height: 1.2;
     font-family: Nanum Gothic,font-family;
     
 }
@@ -301,7 +319,7 @@
     padding-top: 30px;
 }
 .content .contentwrap .part3  .symbolname3 h5{
-    font-size:15px;
+    font-size:19px;
     color:#0078C6;font-family: Nanum Gothic,font-family;
 }
 .content .contentwrap .part3  .symbolname3 .wireless{
@@ -319,7 +337,8 @@
     margin:5px 0;
 }
 .content .contentwrap .part3 .description3 p{
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 1.2;
     color:#FFFFFF;
     font-family: Nanum Gothic,font-family;
 }
@@ -438,6 +457,12 @@
     width:100%;
     font-family: Nanum Gothic,font-family;
     margin-top: 6px;
+    transition:0.7s;
+}
+.advertisement .advertisementwrap .ad3 .detail3 button:hover{
+    color:#FDFDFD;
+    background-color:#0074C0;
+    transform: scale(1.05);
 }
 .footer{
     background-color: #111A2D;
@@ -469,6 +494,11 @@
     color:#FFFFFF;
     border-right: 1px solid #FFFFFF;
     font-family: Nanum Gothic,font-family;
+    transition: 0.7s;
+}
+.footer .footwrap .footmenubar ul li a:hover{
+    color:#0074C0;
+    
 }
 .footer .footwrap .footmenubar ul li:last-child a{
     border-right: none;
